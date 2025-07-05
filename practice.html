@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <h1>What JS Can Do?</h1>
+
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Lagi!";
+}
+</script>
+<p id="demo">Love mo ba ako?</p>
+<button type="button" onclick="myFunction()">Click Me!</button>
+<!-- 1 -->
+
+<script>
+function myFunction1() {
+    document.getElementById("demo").innerHTML = "Hampass";
+}
+</script>
+<p id="demo1">Hug with hampas? G!.</p>
+<button type="button" onclick="document.getElementById('demo1').style.fontSize='35px'">Click Me!</button>
+<!-- 2 -->
+
+<p id="demo2">Nasaan ka right now ngaaa.</p>
+<button type="button" onclick="document.getElementById('demo2').style.display='none'">Hide!</button>
+<!-- 3 -->
+
+<h5>Hit next to continue </h5>
+ 
+<p id="demo3" style="display:none">Congratulation! ng level up kana kupal.</p>
+<button type="button" onclick="document.getElementById('demo3').style.display='block'">Next!</button>
+
+
+</body>
+</html>
